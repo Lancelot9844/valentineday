@@ -9,3 +9,5 @@ class Choice(models.Model):
     question =models.ForeignKey(Question,on_delete=models.CASEADE)
     Choice_text= models.CharField(max_length=200)
     votes=models.IntegerField(default=0)
+
+    # This is a comment
